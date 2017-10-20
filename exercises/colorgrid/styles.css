@@ -1,0 +1,41 @@
+
+{
+    box-sizing: border-box;
+    font-size: 0px;
+}
+body {
+  margin: auto;
+  width: 80%;
+}
+#row1 {
+  width: 512px;
+  height: 100px;
+  background-color:#F5C6D6;
+  display: inline-block;
+}
+.row2 {
+  width: 125px;
+  height: 100px;
+  background-color:#EE2E84;
+  display: inline-block;
+}
+.row3 {
+  width: 250px;
+  height: 100px;
+  background-color: #85CFD8;
+  display: inline-block;
+}
+
+.row4 {
+  width: 375px;
+  height: 100px;
+  background-color:#8DC63F;
+  display:inline-block;
+}
+
+.box5 {
+  width: 125px;
+  height: 100px;
+  background-color:#E76E34;
+  display: inline-flex;
+}

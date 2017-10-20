@@ -1,15 +1,33 @@
+@font-face {
+  font-family: "Star Wars";
+  src: url("Starjedi.ttf");
+}
+
 body {
     background-color: #111111;
-
 }
 
 h1 {
-
+    font-size: 36px;
     color: #E2E80F;
     text-align: center;
+    font-family: "Star Wars";
 }
 
 p {
   color: #eeeeee;
-  font-size: 0p
+}
+
+p > .credits {
+  text-decoration: underline;
+  color: #49DAFF;
+}
+
+.credits:hover {
+  cursor: pointer;
+}
+
+#film-description {
+  font-style: italic;
+  font-size: 18px;
 }
