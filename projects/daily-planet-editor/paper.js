@@ -17,7 +17,7 @@ var enemies = ["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
         }
 
         else {
-        return "Depends on how quick Superman can get rid of the Kryptonite. " + enemyName + " could possibly win this one.";}
+            return "Depends on how quick Superman can get rid of the Kryptonite. " + enemyName + " could possibly win this one.";}
         }
 
 for (var i = 0; i < enemies.length; i++) {
