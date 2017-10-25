@@ -1,0 +1,27 @@
+.container {
+
+background-color: pink;
+height: 1000px;
+
+border-style: solid;
+border-color: black, 5px;
+
+}
+
+.row {
+  height: 300px;
+  width: 800px;
+  background-color: white;
+  border-style: solid;
+  border-color: green, 5px;
+
+}
+
+.add {
+  height: 300px
+  background-color: white;
+  border-stye: solid;
+  border-color: green;
+
+
+}
