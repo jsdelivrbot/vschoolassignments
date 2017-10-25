@@ -1,0 +1,20 @@
+.box {
+  height: 100px;
+  width: 100px;
+
+}
+.box: hover{
+  background-color: red;
+}
+
+.box: active{
+  background-color: blue;
+
+}
+.box: focus {
+  background-color: black;
+}
+
+a: visited {
+  
+}
