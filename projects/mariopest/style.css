@@ -1,3 +1,20 @@
+
+
+.jumbotron {
+    font-size: 36px;
+    text-align: center;
+
+}
+
 h1 {
-  font-size:30px;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+  }
+
+.menu {
+  font-size: 20px;
+  color: green;
+
 }

@@ -1,27 +1,41 @@
 .container {
 
-background-color: pink;
-height: 1000px;
-
+background-color: aliceblue;
+height: 300px;
+width: 750px;
 border-style: solid;
-border-color: black, 5px;
+border-color: black,
+border-width: 5px;
 
 }
 
-.row {
-  height: 300px;
-  width: 800px;
+.row1 {
+  height: 100px;
+  width: 600px;
   background-color: white;
   border-style: solid;
-  border-color: green, 5px;
+  border-color: cadetblue;
+  border-width: 5px;
+
 
 }
+.row2 {
+  height: 100px;
+  width: 600px;
+  background-color: pink;
+  border-style: solid;
+  border-color: cadetblue;
+  border-width: 5px;
 
-.add {
-  height: 300px
+
+}
+.row3 {
+  height: 100px;
+  width: 600px;
   background-color: white;
-  border-stye: solid;
-  border-color: green;
+  border-style: solid;
+  border-color: cadetblue;
+  border-width: 5px;
 
 
 }

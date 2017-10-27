@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
       <title>Simple Calculator</title>
       <link rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
       <link rel= "stylesheet"
       href="style.css" />
 
@@ -17,30 +17,31 @@
   <div class="container">
 
     <div class="add">
-         <div class="row">
-             <div></div>
+        <div class="row1">
             <input type="number" id="number-one"/>
-
-            <button id="add-number">Add</button>
-            <div id="output"></div>
+            <input type="number" id="number-two"/>
+            <button type="button" id="add-number" class="btn btn-info">ADD</button>
+            <div id="add-result"></div>
         </div>
     </div>
 
 
-    <div class="subtract"></div>
-        <div class="row">
-            <input type="number" id="number-two"/>
-            <button id="subtract-number">Subtract</button>
-            <div id="output"></div>
+    <div class="subtract">
+         <div class="row2">
+            <input type="number" id="number-three"/>
+            <input type="number" id="number-four"/>
+            <button type="button" id="subtract-number" class="btn btn-info">SUBTRACT</button>
+            <div id="subtract-result"></div>
         </div>
-
+    </div>
 
     <div class="multiply"></div>
-    <div class="row">
-        <input type="number" id="my-input"/>
-        <button id="multiply-number">Multiply</button>
-        <div id="output"></div>
-    </div>
+        <div class="row3">
+            <input type="number" id="number-five"/>
+            <input type="number" id="number-six"/>
+            <button type="button" id="multiply-number" class="btn btn-info">MULTIPLY</button>
+            <div id="multiply-result"></div>
+        </div>
 
 
 

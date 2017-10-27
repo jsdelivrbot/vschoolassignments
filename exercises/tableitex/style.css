@@ -1,0 +1,27 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+th {
+
+  border: 10px solid darkblue;
+  text-align: center;
+  padding: 10 px;
+
+}
+
+td {
+
+  border: 1px solid black;
+  text-align: left;
+  padding: 10 px;
+
+}
+
+
+tr:nth-child(even) {
+    background-color: aliceblue;
+}
