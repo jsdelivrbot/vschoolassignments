@@ -1,0 +1,51 @@
+"menu": {
+
+  "appetizers": [
+    "buffalo wings" {
+        "name": "Buff Wings",
+        "ingredients":["chicken wings", "butter", "hot sauce"],
+        "description": "spicy hot wings in batter",
+      },
+    "onion rings"{
+      "name": "Blown O-rings",
+      "ingredients": ["onions", "batter"],
+      "description": "deep-fried rings",
+    },
+  ],
+
+  "cold sandwiches": [
+    "Jamon Serrano" {
+      "name": "Jamon",
+      "ingredients": ["ham", "French bread", "Swiss cheese"],
+      "description": "Spanish ham on a hard roll"
+    },
+
+    "Bologna DeLuxe"{
+      "name": "Baloney",
+      "ingredients": ["bologna", "cheddar cheese", "white bread"],
+      "description": "tradition schoolboy favorite"
+    }
+  ],
+  "hot sandwiches": [
+    "French dip" {
+      "name": "Frenchies",
+      "ingredients": ["roast beef", "french bread", "provolone cheese"],
+      "description": "Roast beef sandwich with au jus"
+    }
+    "Grilled Cheese"{
+      "name": "Grilled Up",
+      "ingredients": ["American cheese", "white bread", "butter"],
+      "description": "melted cheese on buttered toast"
+    }
+
+  ],
+  "desserts": [
+
+  ],
+  "drinks": [
+
+  ],
+
+
+
+}
