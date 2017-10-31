@@ -1,0 +1,153 @@
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    margin: auto;
+    border: 1px solid blue;
+    box-shadow: 10px 10px 5px #999;
+    border-radius: 10%;
+/*
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .2s;
+*/
+    transition: 1s 2s all ease-in;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+}
+.box1:hover {
+    box-shadow:none;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color:gray;
+    margin: auto;
+    border: 5px dotted green;
+    box-shadow: 20px 20px 10px #999;
+    border-radius: 20%;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+
+}
+.box2:hover {
+    box-shadow:none;
+    border-radius: 15px;
+    background-color: purple;
+    border: 1px solid black;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color:indianred;
+    margin: auto;
+    border: 2px solid blue;
+    box-shadow: 10px 10px 15px #999;
+    border-radius: 20%;
+/*
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .2s;
+*/
+    transition: 1s 2s all ease-in;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+}
+.box3:hover {
+    box-shadow:none;
+    border-radius: 50px;
+    background-color: lightblue;
+    border: 20px dotted black;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color:cadetblue;
+    margin: auto;
+    border: 1px solid blue;
+    box-shadow: 10px 10px 5px #999;
+    border-radius: 10%;
+/*
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .2s;
+*/
+    transition: 1s 2s all ease-in;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+}
+.box4:hover {
+    box-shadow:none;
+    border-radius: 20px;
+    background-color: black;
+    border: 10px solid black;
+}
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: auto;
+    border: 1px solid blue;
+    box-shadow: 10px 10px 5px #999;
+    border-radius: 10%;
+/*
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .2s;
+*/
+    transition: 1s 2s all ease-in;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+}
+.box5:hover {
+    box-shadow:none;
+    border-radius: 10px;
+    background-color: pink;
+    border: 10px dotted black;
+}
+.box6 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: auto;
+    border: 1px solid blue;
+    box-shadow: 10px 10px 5px #999;
+    border-radius: 10%;
+/*
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .2s;
+*/
+    transition: 1s 2s all ease-in;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+}
+.box6:hover {
+    box-shadow:none;
+    border-radius: 50px;
+    background-color: blue;
+    border: 5px solid black;
+}

@@ -8,53 +8,71 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
       <link rel= "stylesheet"
       href="style.css" />
-
 </head>
-
+<body>
 <div class="jumbotron">
   <img src="images/super-mario-wall.jpg" width=100%>
   <h1 class="display-3">MARIO PEST CONTROL</h1>
-  <p class="lead">Got an infestation of Goombas, Bob-ombs, and Cheep-cheeps?</p>
-  <hr class="my-4">
+  <p class="lead">Got an infestation of Goombas, Bob-ombs, and Cheep-Cheeps?</p>
+  <hr class="my-4"></hr>
   <p>Let Mario take care of all your pest problems!</p>
   <p class="lead">
-    <a class="btn btn-primary btn-lg" href="http://mario.nintendo.com/" target="_blank" role="button">Learn more</a>
-
-
+    <a class="btn btn-primary btn-lg" href="http://mario.nintendo.com/" target="_blank" role="button">INFO</a>
   </p>
 </div>
 
+<div class="container">
 
-<body>
-    <h1>BADDIES HANDLED:</hi>
+      <h1 class="baddies">BADDIES HANDLED:</hi>
 
-  <div class=menu>
-  <ul>
-    <li>Goombas</li>
-    <li>Bob-ombs</li>
-    <li>Cheep-cheeps</li>
-  </div>
+    </ul>
+        <ul class="list-group">
+            <li class="list-group-item active"> Goombas - 5 Coins
+              <img src="images/TanookiGoomba-SM3DL.png" width=10%>
 
-  </ul>
+              <div class="multiply"></div>
+                  <div class="row3">
+                      <input type="number" id="Goomba-charge"/>
+                  </div>
+              </li>
 
-  <ul class="list-group">
-    <li class="list-group-item active">Goombas</li>
-    <li class="list-group-item">Bob-ombs</li>
-    <li class="list-group-item">Cheep cheeps</li>
-    <li class="list-group-item">Porta ac consectetur ac</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
+              <li class="list-group-item"> Bob-ombs - 7 Coins
+                <img src="images/Bob-omb.png" width=10%>
+                <div class="multiply"></div>
+                    <div class="row3">
+                        <input type="number" id="Bobomb-charge"/>
+                    </div>
+              </li>
 
+              <li class="list-group-item active">Cheep Cheeps - 11 Coins
+                <img src="images/Cheep-Cheep_cool.png" width=10%>
+                <div class="multiply"></div>
+                    <div class="row3">
+                        <input type="number" id="CheepCheep-charge"/>
+                    </div>
+              </li>
+    </ul>
+    <button type="button" id="submit">Submit</button>
+    <!-- this allows for the total to show up on the web page -->
+    <p id="sum"></p>
+    <br />
+    <br />
 
-
-
-</body>
-<footer>
-  <p>Mario's physical address</p>
-  <p>http://mario.nintendo.com</p>
-  <p>Contact information: <a href="mailto:mario@pestcontrol.com">mario@pestcontrol.com</a></p>
-</footer>
+    <footer>
+        <p>1981 MOZZARELLA WAY, TOON TOWN CA 90000</p>
+        <a href="http://mario.nintendo.com/" target="_blank">VISIT mario.nintendo.com</a>
+        <br />
+        <p>CONTACT INFORMATION: <a href="mailto:mario@pestcontrol.com">mario@pestcontrol.com</a></p>
+    </footer>
 
 <script src="index.js"></script>
+
+  </body>
+
+
+
+</div>
+
+
 
 </html>
