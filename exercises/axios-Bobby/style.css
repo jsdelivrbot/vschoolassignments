@@ -1,0 +1,10 @@
+.container {
+  background-color: pink;
+  height: 800px;
+  border: solid black 3px;
+}
+
+.row {
+border: solid black 1px;
+
+}

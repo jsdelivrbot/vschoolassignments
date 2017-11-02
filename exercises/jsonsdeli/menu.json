@@ -5,13 +5,13 @@
         "name": "Buff Wings",
         "ingredients":["chicken wings", "butter", "hot sauce"],
         "description": "spicy hot wings in batter",
-      },
+            },
     "onion rings"{
       "name": "Blown O-rings",
       "ingredients": ["onions", "batter"],
       "description": "deep-fried rings",
-    },
-  ],
+            },
+          ],
 
   "cold sandwiches": [
     "Jamon Serrano" {
