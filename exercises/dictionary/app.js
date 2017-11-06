@@ -8,6 +8,10 @@
 //
 // dict.get("b");
 
+var dictionary = {
+
+};
+
 var myDict = function(word, definition){
   var dictionary = {
     word: definition,
@@ -22,8 +26,32 @@ var lookUp = function(word){
       }
 
     } else {
-  return null;
+  console.log("That is already in here");
 }
+
+
+
+
+var dictionary = {};
+var newWord = function(word, definition){
+    dictionary[word] =
+    definition;
+  //put word and definition into
+  //our dictionary object, as a key value pair
+  //  word: definition,
+}
+
+var search = function(word){
+
+  if(dictionary[word]===undefined){
+
+
+
+  return definition
+}
+}
+
+
 
 
 // function myDict(){

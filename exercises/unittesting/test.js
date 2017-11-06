@@ -18,7 +18,7 @@ var palindrome = require('./app.js');
 //         assert.equal(add(4,1), false);
 //
 //       });
-//     });
+//     })
 
 
 

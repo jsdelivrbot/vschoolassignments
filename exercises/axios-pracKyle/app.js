@@ -26,7 +26,7 @@ button.addEventListener("click", function(){
         "title": document.getElementById('newTitle').value,
         "description": document.getElementById("newDescription").value,
         "price": document.getElementById("newPrice").value,
-    };
+        };
     axios.post("https://api.vschool.io/kyle/todo/", newTodo).then(function(response){
         location.reload(true);
     });

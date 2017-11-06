@@ -1,0 +1,146 @@
+
+* {
+  box-sizing: border-box;
+
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #325050;
+  background: #fff;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 70%;
+}
+
+
+
+header {
+      text-align: center;
+      padding: 20px 0px 70px 0px;
+      background-size: cover;
+      height: 230px;
+      background-image: url(contours@2x.png), url(noise.png), url(gridlines.png), url("images/huntington.jpg");
+      background-size: 50% auto, auto, auto,cover;
+    }
+
+h1, h2 {
+    padding: 0 10%;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+  }
+
+h1 {
+    padding-top: 0;
+    padding-bottom: 5px;
+    border-bottom: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3.2em;
+    text-transform: uppercase;
+  }
+
+h2 {
+    font-style: italic;
+  }
+
+p {
+    margin: 0.75em 0;
+    line-height: 2;
+  }
+
+.summary {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+.summary {
+      padding-top: 2em;
+    }
+
+.enlightenment {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+.supporting {
+
+}
+
+.supporting h3, .supporting p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.participation {
+  padding: 3em 0;
+  margin-top: 3em;
+  background-attachment: scroll, scroll, fixed;
+  background-color: rgba(138,188,159,0.5);
+  background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
+
+}
+
+.benefits {
+  padding-bottom: 3em;
+  margin-bottom: 3em;
+  background-attachment: scroll, scroll, fixed;
+  background-color: rgba(138,188,159,0.5);
+  background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
+
+}
+
+.participation h3, .benefits h3 {
+  margin-top: 0;
+}
+
+.participation p, .benefits p {
+  margin-bottom: 0;
+}
+
+.requirements {
+
+}
+.requirements p:nth-child(5) {
+  padding-bottom: 2em;
+}
+
+.requirements p:last-child {
+  width: auto;
+  padding: 1em 12%;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.4);
+  background: #3e5d67;
+
+  background-attachment: fixed, fixed, fixed, scroll;
+  background-image: url(contours.png), url(gridlines.png), url(noise.png), url(koi.jpg);
+  background-position: 0 0, -5px -25px, 0 0, 0 50%;
+  background-repeat: repeat, repeat, repeat, no-repeat;
+  background-size: auto, auto, auto, cover;
+
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+}
+
+
+.supporting .requirements {
+  float: none;
+  clear: both;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.supporting .requirements h3 {
+  padding-top: 0;
+}
