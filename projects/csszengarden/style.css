@@ -12,8 +12,8 @@ html, body {
 body {
   color: #325050;
   background: #fff;
-  font-family: 'Libre Baskerville', sans-serif;
-  font-size: 70%;
+  /*font-family: 'Libre Baskerville', sans-serif;*/
+  font-size: 90%;
 }
 
 
@@ -24,6 +24,7 @@ header {
       background-size: cover;
       height: 230px;
       background-image: url(contours@2x.png), url(noise.png), url(gridlines.png), url("images/huntington.jpg");
+      /*background-image: url(csszengarden.com/214/enso.svg);*/
       background-size: 50% auto, auto, auto,cover;
     }
 
@@ -53,6 +54,7 @@ p {
   }
 
 .summary {
+    font-family: 'verdemoderna';
     width: 80%;
     margin: 0 auto;
   }
@@ -62,6 +64,7 @@ p {
     }
 
 .enlightenment {
+      font-family: 'verdemoderna';
       width: 80%;
       margin: 0 auto;
     }
@@ -71,6 +74,7 @@ p {
 }
 
 .supporting h3, .supporting p {
+  font-family: 'verdemoderna';
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -78,6 +82,7 @@ p {
 }
 
 .participation {
+  font-family: 'verdemoderna';
   padding: 3em 0;
   margin-top: 3em;
   background-attachment: scroll, scroll, fixed;
@@ -89,6 +94,7 @@ p {
 }
 
 .benefits {
+  font-family: 'verdemoderna';
   padding-bottom: 3em;
   margin-bottom: 3em;
   background-attachment: scroll, scroll, fixed;
@@ -96,11 +102,13 @@ p {
   background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
-
 }
+/*That zen garden swirly paintbrush image in the banner*/
+
 
 .participation h3, .benefits h3 {
   margin-top: 0;
+  font-family: 'verdemoderna';
 }
 
 .participation p, .benefits p {
@@ -108,7 +116,7 @@ p {
 }
 
 .requirements {
-
+font-family: 'verdemoderna';
 }
 .requirements p:nth-child(5) {
   padding-bottom: 2em;
@@ -122,7 +130,7 @@ p {
   background: #3e5d67;
 
   background-attachment: fixed, fixed, fixed, scroll;
-  background-image: url(contours.png), url(gridlines.png), url(noise.png), url(koi.jpg);
+  background-image: url("images/koi.jpg");
   background-position: 0 0, -5px -25px, 0 0, 0 50%;
   background-repeat: repeat, repeat, repeat, no-repeat;
   background-size: auto, auto, auto, cover;
@@ -144,3 +152,54 @@ p {
 .supporting .requirements h3 {
   padding-top: 0;
 }
+
+/*my sidenav stuff*/
+/* The side navigation menu */
+/* The sidenav */
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #edf4f0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: black;
+
+}
+
+
+/* Page content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+/* Page content */
+/*.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+/*}*/*/
+
+/*Here is sidebar try, as opposed to sidenav*/
+
+/*.sidebar {
+  background: #edf4f0;
+}
+.sidebar h3 {
+  display: none;
+}
+.sidebar a {
+  color: #607476;
+  text-decoration: none;
+}
+  .sidebar a:hover, .sidebar a:focus {
+    color: #49968e;
+  }
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+}*/
