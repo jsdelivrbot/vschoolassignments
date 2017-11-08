@@ -4,6 +4,15 @@
 
 }
 
+@font-face {
+  font-family: 'libreitalic';
+  src: url('https://fonts.gstatic.com/s/librebaskerville/v5/QHIOz1iKF3bIEzRdDFaf5fbsUggLxuOzHNuXcSFlTaY.woff2');
+}
+@font-face {
+  font-family: 'libre';
+  src: url('https://fonts.gstatic.com/s/librebaskerville/v5/pR0sBQVcY0JZc_ciXjFsK8j0T1k_tV7QYhgnOhA2764.woff2');
+}
+
 html, body {
   padding: 0;
   margin: 0;
@@ -26,7 +35,14 @@ header {
       background-image: url(contours@2x.png), url(noise.png), url(gridlines.png), url("images/huntington.jpg");
       /*background-image: url(csszengarden.com/214/enso.svg);*/
       background-size: 50% auto, auto, auto,cover;
+      font-family:'libreitalic';
     }
+.enso {
+    position: absolute;
+    height: 100px;
+    left: 322px;
+    top: 16px;
+}
 
 h1, h2 {
     padding: 0 10%;
@@ -34,6 +50,11 @@ h1, h2 {
     color: #fff;
     font-weight: normal;
   }
+h1::before{
+  background: url(enso.svg);
+
+
+}
 
 h1 {
     padding-top: 0;

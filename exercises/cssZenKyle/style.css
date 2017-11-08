@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'libreitalic';
+  src: url('https://fonts.gstatic.com/s/librebaskerville/v5/QHIOz1iKF3bIEzRdDFaf5fbsUggLxuOzHNuXcSFlTaY.woff2');
+}
+@font-face {
+  font-family: 'libre';
+  src: url('https://fonts.gstatic.com/s/librebaskerville/v5/pR0sBQVcY0JZc_ciXjFsK8j0T1k_tV7QYhgnOhA2764.woff2');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville');
+
+.container {
+background-color: #fff;
+border: 10px solid blue;
+
+}
+
+body {
+  color: #325050;
+  background: #fff;
+  font-family: "verdemoderna";
+  /*font-family: 'Libre Baskerville', sans-serif;*/
+  font-size: 90%;
+
+}
+
+#top-left {
+  height: 340px;
+  padding: 20px 0 70px 0;
+  width: 100%;
+  position: relative;
+  background-image: url(contours@2x.png), url(noise.png),
+  url(gridlines.png), url("images/huntington.jpg");
+  font-family:'libreitalic';
+}
+
+#top-right {
+  height: 100%;
+  width: 30%;
+  background-color: rgba(0,0,0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.btn {
+  color: rgba(255,255,255,0.6);
+  font-size: 20px;
+  font-family: "Julius Sans One", sans-serif;
+  background-color: inherit;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 50px:
+}
+
+a {
+  display: inline-block;
+}
+
+h1 {
+  color: #fff;
+  padding-top: 0px;
+    padding-bottom: 5px;
+    border-bottom: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3.8em;
+    text-transform: uppercase;
+}
+
+h1::before{
+  background: url(enso.svg);
+}
+
+h2 {
+  display: block;
+  padding-top: 2px;
+  padding-bottom: 30px;
+  border-top: none;
+  color: rgba(255,255,255,0.6);
+  font-size: 1.6em;
+  font-style: "libreitalic";
+}
+
+.top-container {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 15%;
+}
+
+/*.enso {
+    float: left;
+    width: 300px;
+    height: auto;*/
+
+.enso {
+    float: left;
+    88: inherit;
+    height: auto;
+}
+
+
+
+#high-left {
+  height: 800px;
+  width: 70%;
+  display: inline-block;
+  background-color: #fff;
+
+}
+
+p {
+  font-size: 19px;
+  margin: 0.75em 0;
+    line-height: 1.8;
+  font-family: 'verdemoderna';
+  width: 80%;
+  margin: 0 auto;
+}
+
+#high-right {
+  height: 800px;
+  width: 30%;
+  background-color: #edf4f0;
+  display: inline-block;
+}
+
+#mid-left {
+  height: 650px;
+  width: 70%;
+  display: inline-block;
+  background-color:rgba(138,188,159,0.5);
+  background-attachment: scroll, scroll, fixed;
+  background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+  position:relative;
+}
+
+h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Julius Sans One';
+}
+
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  color: #607476;
+}
+
+h5{
+  text-align: center;
+  font-family: "verdemoderna";
+  font-size: 20px;
+  color: #325050;
+}
+
+#mid-right {
+  height: 650px;
+  width: 30%;
+  display: inline-block;
+  /*background-color:rgba(138,188,159,0.5);*/
+  background-color: rgba(0,0,0, 0.2);
+  background-attachment: scroll, scroll, fixed;
+  background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+  position: absolute;
+}
+
+#low-left {
+  height: 700px;
+  width: 70%;
+  display: inline-block;
+  background-color: #fff;
+
+}
+
+#low-right {
+  height: 700px;
+  width: 30%;
+  background-color: #edf4f0;
+  display: inline-block;
+
+}
+
+#footer {
+height: 300px;
+width: 100%;
+background-image: url("images/koi.jpg");
+display: inline-block;
+font-family: 'libreitalic', sans-serif;
+font-size: 20px;
+font-style:italic;
+color: white;
+text-align: center;
+}
+
+#bottomnav {
+  height: 300px;
+  width: 100%;
+  background-color: #134347;
+  display: inline-block;
+
+}
