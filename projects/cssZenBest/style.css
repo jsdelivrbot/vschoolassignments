@@ -26,9 +26,9 @@ body {
 
 #top-left {
   height: 340px;
-  padding: 20px 0 70px 0;
+  padding: 70px 0 70px 0;
   width: 100%;
-  position: relative;
+  position: absolute;
   background-image: url(contours@2x.png), url(noise.png),
   url(gridlines.png), url("images/huntington.jpg");
   font-family:'libreitalic';
@@ -139,7 +139,7 @@ p {
 h3{
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Julius Sans One';
+  font-family: 'Julius Sans One' sans-serif;
 }
 
 h4 {
@@ -185,6 +185,8 @@ h5{
 }
 
 #footer {
+  line-height: 1.2;
+padding: 80px;
 height: 300px;
 width: 100%;
 background-image: url("images/koi.jpg");
