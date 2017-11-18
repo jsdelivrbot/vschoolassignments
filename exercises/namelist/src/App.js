@@ -1,7 +1,7 @@
 import React from "react";
 import NameList from "./NameList";
 
-function App (){
+function App(){
     return (
       <div>
           <NameList/>
