@@ -19,10 +19,14 @@ var palindrome = require('./app.js');
 //
 //       });
 //     })
+let chai = require("chai");
+let assert = chai.assert;
+let xxx = require("./app.js");
+
+it("Should return a function that ....", function(){assert.equal()})
 
 
 
- 
     });
     it('Should return true if the argument contains punctuation and is a palindrome', function(){
       assert.equal(palindrome("taco! cat!"), palindrome('tacocat'))
