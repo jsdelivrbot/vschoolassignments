@@ -23,7 +23,15 @@ let chai = require("chai");
 let assert = chai.assert;
 let xxx = require("./app.js");
 
-it("Should return a function that ....", function(){assert.equal()})
+it("Should return a function that.....", function(){assert.equal(xxx(), xxx())});
+
+
+
+let chai = require("chai");
+let assert = chai.assert;
+let xxx = require("./app.js");
+
+it("should returna function", function(){assert.equal(xxx(),xxx())});
 
 
 
