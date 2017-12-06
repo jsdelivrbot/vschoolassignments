@@ -36,7 +36,7 @@ class AddUglyForm extends Component {
 
     handleSubmit(e){
       e.preventDefault();
-      this.props
+      this.props.addUgly(this.state);
       this.setState({
         title: "",
         image: "",
@@ -63,6 +63,7 @@ class AddUglyForm extends Component {
             name="image"
             placeholder= "Img URL"
             value={this.state.image}
+            onChange={this.handleChange}
           />
           <input
             type="text"
@@ -71,6 +72,7 @@ class AddUglyForm extends Component {
             name="desc"
             placeholder="Description"
             value={this.state.desc}
+            onChange={this.handleChange}
           />
           <button>Submit</button>
         </form>
