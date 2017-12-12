@@ -14,26 +14,11 @@ let bounties = [
     "bounty amount": 100000,
     "type": "Sith",
     "id": "4c9a3ea6-143e-416b-ad6f-f2b90f480e8b"
-    },
-  {
-    "firstName": "Luke",
-    "lastName": "Skywalker",
-    "living": true,
-    "bounty amount": 100000,
-    "type": "Jedi",
-    "id": "404-imnotsurewhatthisis"
-
     }
-
 ]
 
 app.get("/bounty", (req, res)=>{
     return res.send(bounties);
-});
-
-app.get("/bounty/:id", (req, res) => {
-  const bounty = bounties.find(item => item.id === req.params.id);
-  return res.send(bounty);
 });
 
 app.post("/bounty", (req, res)=>{
@@ -42,11 +27,9 @@ app.post("/bounty", (req, res)=>{
   return res.send({message: "Bounty added:", object: req.body});
 });
 
-app.delete("/bounty/:id", (req, res)=>{
-  bounties.filter(item => {
-    item.id !== req.params.id;
-    return res.send({msg: "Item's GONE"});
-  })
+app.get("/bounty/:id", (req, res) => {
+  const bounty = bounties.find(item => item.id === req.params.id);
+  return res.send(bounty);
 });
 
 app.put("/bounty/:id", (req, res) => {
@@ -57,7 +40,14 @@ app.put("/bounty/:id", (req, res) => {
       foundBounty[prop] === req.body[prop] || foundBounty[prop]
     }
   }
-})
+});
+
+app.delete("/bounty/:id", (req, res)=>{
+  bounties.filter(item => {
+    item.id !== req.params.id;
+    return res.send({msg: "Item's GONE"});
+  })
+});
 
 app.listen(port, ()=>{
     console.log(`App is listening on port ${port}!`)
