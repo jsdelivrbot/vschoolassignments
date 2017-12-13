@@ -1,3 +1,3 @@
-module.export = {
-  url : "mongodb://robertomagma:password@5268luna<dbuser>:<dbpassword>@ds129146.mlab.com:29146/notable"
+module.exports = {
+  url : "mongodb://robertomagma:5268luna@ds129146.mlab.com:29146/notable"
 }
