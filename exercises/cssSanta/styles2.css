@@ -1,0 +1,71 @@
+@font-face {
+  font-family: MountainsofChristmas-Regular;
+  src:url(MountainsofChristmas.ttf);
+}
+
+body {
+  margin: 10px;
+}
+.wrapper {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*grid-template-rows: 2fr auto 3fr auto .5fr;*/
+  grid-template-rows: 300px 100px 500px 50px 150px;
+  grid-template-areas:
+  "header  header  header"
+  "subHeader subHeader subHeader"
+  "content content sidebar"
+  "ribbon ribbon ribbon"
+  "footer  footer  footer";
+  background-color: green;
+  color: #444;
+}
+
+/*.box {
+  border: 2px solid black;
+  border-radius: 5px;
+}*/
+.header {
+  grid-area: header;
+  background-color: pink;
+}
+.subHeader {
+  grid-area: subHeader;
+  color: whitesmoke;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 12px;
+  font-family: 'Mountains of Christmas', cursive;
+  border: 5px solid #757519;
+  background: #6A9113;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #141517, #6A9113);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #141517, #6A9113); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.content {
+  grid-area: content;
+  position: relative;
+  background-color: red;
+}
+.sidebar {
+  grid-area: sidebar;
+  background-color: cadetblue;
+}
+
+.ribbon {
+  grid-area: ribbon;
+  border: 2px #403B4A solid;
+  background: #403B4A;
+  background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);
+  background: linear-gradient(to right, #E7E9BB, #403B4A);
+}
+
+
+
+.footer {
+  grid-area: footer;
+  background: #8E0E00;
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+  background: linear-gradient(to right, #1F1C18, #8E0E00);
+}

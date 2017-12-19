@@ -1,0 +1,35 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+
+  /*grid-gap: 1em;*/
+
+}
+.wrapper div{
+  background: #eee;
+  padding: 1em;
+}
+
+#imga {
+  background-size: cover;
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+#imgb {
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 20;
+}
+
+#imgc {
+  position:absolute;
+  top: 0px;
+  left: 363px;
+  z-index: 30;
+}

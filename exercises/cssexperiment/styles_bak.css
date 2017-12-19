@@ -1,0 +1,27 @@
+.wrapper {
+  display: grid;
+
+  grid-auto-rows: minmax(500px, auto);
+  grid-gap: 1em;
+  justify-items:stretch;
+  align-items: stretch;
+}
+.wrapper div{
+  padding: 1em;
+}
+.box1 {
+  border: 1px solid #333;
+  background-image: url("./images/1922007.gif"), url("./images/diamondmullions.png");
+  background-repeat: repeat, no-repeat;
+  background-size: cover
+}
+
+}
+.box2{
+  border: 1px solid #333;
+  height: auto;
+  border: 1px solid #333;
+  background: #000046;
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+  background: linear-gradient(to right, #1CB5E0, #000046);
+}
