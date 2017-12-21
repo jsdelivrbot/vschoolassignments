@@ -5,7 +5,7 @@ var config = require("./config/database");
 var bodyParser = require('body-parser');
 var session = require('express-session');
 var expressValidator = require('express-validator');
-
+var ejs = require("ejs");
 //Connect to DB
 mongoose.connect(config.database);
 var db = mongoose.connection;
@@ -23,6 +23,9 @@ app.set('view engine', 'ejs');
 
 // Set public folder
 app.use(express.static(path.join(__dirname, 'public')));
+
+//Set global errors variable
+app.locals.errors = null;
 
 //Body parser middleware
 app.use(bodyParser.urlencoded({extended: false}));

@@ -61,7 +61,11 @@ background: linear-gradient(to right, #141517, #6A9113); /* W3C, IE 10+/ Edge, F
   background: linear-gradient(to right, #E7E9BB, #403B4A);
 }
 
-
+.wrapper p {
+  padding-top: 40px;
+  text-align: center;
+  color: whitesmoke;
+}
 
 .footer {
   grid-area: footer;
