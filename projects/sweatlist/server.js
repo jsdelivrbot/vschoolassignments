@@ -15,7 +15,7 @@ var router = express.Router();
 var port = process.env.API_PORT || 3001;
 
 //db config -- REPLACE USERNAME/PASSWORD/DATABASE WITH YOUR OWN FROM MLAB!
-var mongoDB = 'mongodb://<DBUSERNAME>:<DBPASSWORD>@ds019836.mlab.com:19836/bryandb';
+var mongoDB = 'mongodb://robertomagma:5268luna@ds129146.mlab.com:29146/notable';
 mongoose.connect(mongoDB, { useMongoClient: true })
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
@@ -68,7 +68,7 @@ router.route('/comments')
 
 //Adding a route to a specific comment based on the database ID
 router.route('/comments/:comment_id')
-//The put method gives us the chance to update our comment based on the ID passed to the route
+//The put method lets me update a comment based on the ID passed to the route
   .put(function(req, res) {
     Comment.findById(req.params.comment_id, function(err, comment) {
       if (err)

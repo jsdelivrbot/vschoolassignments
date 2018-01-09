@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'libreitalic';
+  src: url('https://fonts.gstatic.com/s/librebaskerville/v5/QHIOz1iKF3bIEzRdDFaf5fbsUggLxuOzHNuXcSFlTaY.woff2');
+}
+@font-face {
+  font-family: 'libre';
+  src: url('https://fonts.gstatic.com/s/librebaskerville/v5/pR0sBQVcY0JZc_ciXjFsK8j0T1k_tV7QYhgnOhA2764.woff2');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville');
+
+body {
+  color: #325050;
+  background: #fff;
+  font-size: 90%;
+}
+#content {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: repeat(6, minmax(200px, auto));
+  max-width: 1160px;
+  background-color: #fff;
+  border: 1px solid green;
+  margin: 0 auto;
+}
+#content div{
+  padding: 30px;
+}
+.enso {
+  float: left;
+  88: inherit;
+  height: 80px;
+}
+a {
+  display: inline-block;
+}
+h1 {
+  color: #fff;
+  padding-top: 15px;
+  paddiong-left: 20px;
+  padding-bottom: 5px;
+  border-bottom: none;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+h1::before{
+  background: url(enso.svg);
+}
+h2 {
+  display: block;
+  padding-top: 2px;
+  padding-bottom: 30px;
+  margin-left: 60px;
+  border-top: none;
+  color: rgba(255,255,255,0.6);
+  font-size: 20px;
+  font-family: "libreitalic";
+}
+h3{
+  margin-left: auto;
+  color: #2e484c;
+  text-transform: uppercase;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: normal;
+  font-size: 1.8em;
+}
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  color: #607476;
+}
+h5{
+  text-align: center;
+  font-family: "verdemoderna";
+  font-size: 20px;
+  color: #325050;
+}
+
+p {
+  font-size: 19px;
+  margin: 0.75em 0;
+  line-height: 1.8;
+  font-family: "librebaskerville";
+  font-weight: 400;
+  width: 80%;
+}
+
+.header{
+  grid-column: 1 / 3;
+  grid-row: 1 / 2 ;
+
+  position: cover;
+  background-image: url(contours@2x.png), url(noise.png),
+  url(gridlines.png), url("images/huntington.jpg");
+  font-family:'Julio Sans One';
+  color: #fff;
+
+}
+.buttonbox {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-color: rgba(0,0,0, 0.2);
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 1.2em;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+.btn {
+  color: rgba(255,255,255,0.6);
+  font-size: 20px;
+  font-family: "Julius Sans One", sans-serif;
+  background-color: inherit;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 50px:
+}
+.mainleft {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.mainright {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: #edf4f0;
+  padding-left: 20px;
+}
+/* I called this midleft */
+.participationleft {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: inline-block;
+  background-color:rgba(138,188,159,0.5);
+  background-attachment: scroll, scroll, fixed;
+  background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+  position:relative;
+}
+.participationright {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color:rgba(138,188,159,0.7);
+  background-attachment: scroll, scroll, fixed;
+  background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+  position:relative;
+  font-size: 11px;
+}
+.requirementsleft {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.requirementsright {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: #edf4f0;
+}
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  line-height: 1.2;
+  padding: 80px;
+  height: 200px;
+  width: 100%;
+  background-image: url("images/koi.jpg");
+  display: inline-block;
+  font-family: 'libreitalic', sans-serif;
+  font-size: 20px;
+  font-style:italic;
+  color: white 0.2;
+  text-align: center;
+}
+.bottomnav {
+    grid-column: 1 / 3;
+    grid-row: ;
+    background-color: #134347;
+    display: inline-block;
+}

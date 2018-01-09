@@ -1,0 +1,120 @@
+@font-face {
+  font-family: MountainsofChristmas-Regular;
+  src:url(MountainsofChristmas.ttf);
+}
+
+body {
+  margin: 10px;
+}
+.wrapper {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*grid-template-rows: 2fr auto 3fr auto .5fr;*/
+  grid-template-rows: 300px 100px 500px 50px 150px;
+  grid-template-areas:
+  "header  header  header"
+  "subHeader subHeader subHeader"
+  "content content sidebar"
+  "ribbon ribbon ribbon"
+  "footer  footer  footer";
+  background-color: green;
+  color: #444;
+}
+
+/*.box {
+  border: 2px solid black;
+  border-radius: 5px;
+}*/
+.header {
+  grid-area: header;
+  background-image: url("./images/1922007.gif");
+  background-repeat: repeat, no-repeat;
+  background-size: cover;*/
+  font-style: italic;
+  font-size: 40px;
+  color: whitesmoke;
+  text-align: center;
+  font-family: HerrVonMuellerhoff-Regular;
+  border: 1px solid black;
+}
+
+#imga {
+  position:absolute;
+  top: 0px;
+  left: 3px;
+  z-index: -10;
+}
+
+#imgb {
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+#imgc {
+  position:absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -2;
+}
+
+#from {
+  color: whitesmoke;
+  font-family: fantasy;
+}
+
+
+.subHeader {
+  grid-area: subHeader;
+  color: whitesmoke;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 12px;
+  font-family: 'Mountains of Christmas', cursive;
+  border: 5px solid #757519;
+  background: #6A9113;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #141517, #6A9113);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #141517, #6A9113); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.content {
+  grid-area: content;
+  position: relative;
+  background-color: red;
+  border: 2px #403B4A solid;
+  text-align: center;
+  background-color: #ffe7cd;
+  background-image: url("https://www.transparenttextures.com/patterns/exclusive-paper.png");
+  opacity: .85;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: cadetblue;
+}
+
+.ribbon {
+  grid-area: ribbon;
+  border: 2px #403B4A solid;
+  background: #403B4A;
+  background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);
+  background: linear-gradient(to right, #E7E9BB, #403B4A);
+}
+
+.wrapper p {
+  padding-top: 40px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.footer {
+  grid-area: footer;
+  border: 1px solid black;
+  position: relative;
+  text-align: center;
+  background: #8E0E00;
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+  background: linear-gradient(to right, #1F1C18, #8E0E00);
+}

@@ -23,7 +23,7 @@ body {
   font-size: 90%;
 
 }
-
+/* My header */
 #top-left {
   height: 340px;
   padding: 70px 0 70px 0;
@@ -101,13 +101,12 @@ h2 {
 }
 
 
-
+/* My header */
 #high-left {
   height: 800px;
   width: 70%;
   display: inline-block;
   background-color: #fff;
-
 }
 
 p {
@@ -118,7 +117,7 @@ p {
   width: 80%;
   margin: 0 auto;
 }
-
+/* My buttonbox */
 #high-right {
   height: 800px;
   width: 30%;
@@ -139,7 +138,7 @@ p {
 h3{
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Julius Sans One' sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 h4 {

@@ -1,0 +1,119 @@
+@font-face {
+  font-family: HerrVonMuellerhoff-Regular;
+  src:url("/HerrVonMuellerhoff-Regular.otf");
+}
+ @font-face {
+  font-family: Sentinel;
+  src: url("/Sentinel.tff");
+}
+@font-face {
+  font-family: MountainsofChristmas-Regular;
+  src:url("/MountainsofChristmas-Regular.ttf");
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 500px 100px 500px 50px 100px;
+  grid-template-areas:
+  "header  header  header"
+  "subHeader subHeader subHeader"
+  "content content sidebar"
+  "ribbon ribbon ribbon"
+  "footer  footer  footer";
+  background-color: green;
+  color: #444;
+  background-image: "Christmas-Tree 1.jpg";
+}
+
+.header {
+  grid-area: header;
+  height: 520px;
+  font-style: italic;
+  font-size: 40px;
+  color: whitesmoke;
+  text-align: center;
+  font-family: HerrVonMuellerhoff-Regular;
+  border: 1px solid black;
+}
+
+#imga {
+  width: 99%;
+  height: 520px;
+  position:absolute;
+  top: 0px;
+  left: 3px;
+  z-index: -10;
+}
+
+#imgb {
+  width: 50.5%;
+  height: 532px;
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+#imgc {
+  width: 50.5%;
+  height: 532px;
+  position:absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -2;
+}
+
+#from {
+  color: whitesmoke;
+  font-family: fantasy;
+}
+
+.subHeader {
+  grid-area: subHeader;
+  color: firebrick;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Mountains of Christmas-Regular', cursive;
+  border: 5px solid #757519;
+  background: #6A9113;
+  background: -webkit-linear-gradient(to right, #141517, #6A9113);
+  background: linear-gradient(to right, #141517, #6A9113);
+
+}
+.content {
+  grid-area: content;
+  /* position: relative; */
+  border: 2px #403B4A solid;
+  text-align: center;
+  background-color: #ffe7cd;
+  background-image: url("https://www.transparenttextures.com/patterns/exclusive-paper.png");
+  opacity: .85;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: cadetblue;
+}
+
+.ribbon {
+  grid-area: ribbon;
+  border: 2px #403B4A solid;
+  background: #403B4A;
+  background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);
+  background: linear-gradient(to right, #E7E9BB, #403B4A);
+}
+
+.footer {
+  grid-area: footer;
+  color: gray;
+  border: 1px solid black;
+  position: relative;
+  text-align: center;
+  background: #8E0E00;
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+  background: linear-gradient(to right, #1F1C18, #8E0E00);
+}
